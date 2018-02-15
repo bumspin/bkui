@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>template2 - Bookme</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/font.css" type="text/css">
+<link rel="stylesheet" href="../css/component.css" type="text/css">
+<link rel="stylesheet" href="../css/layout.css" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<!-- TemplateBeginEditable name="editableRegion" -->
+<body>
+	<section class="innerNav blue-bg text-center">
+		<img src="../img/logo.png">
+	</section>
+	<section id="pagebody" class="innerbody page-section">
+	  <div class="container-fluid">
+	    <div class="row">
+	      <div class="col-12">I am the body text</div>
+        </div>
+      </div>
+    </section>
+	<section class="page-section blue-bg">
+	  <div class="container-fluid">
+	    <div class="row align-items-center justify-content-center">
+	      <div class="col-xs-12 col-sm-8 col-md-7 col-lg-5">
+	        <div class="text-center" style="color: white;">
+	          <h1 class="main-title text-center font-wyt">Newsletter Signup</h1>
+	          <p class="op-6">Subscribe to our mailing list to receive first hand info about promotions and other benefits!</p>
+	          <form class="hero-form mt-4">
+	            <div class="hero-input-wrap">
+	              <input type="text" class="form-control" id="newsletter" placeholder="Jane Doe">
+	              </div>
+	            <button type="submit" class="btn btn-default">subscribe</button>
+	            </form>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <p class="site-credit mb-0 font-blue">© 2017 BookMe.com.ng. All rights reserved.</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="footer-socials">
+              <ul class="list-inline clearfix mb-0">
+                <li><a href="javascript:;"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="javascript:;"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="../vendor/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../js/general.js"></script>
+</html>

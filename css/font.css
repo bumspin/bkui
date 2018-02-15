@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: haas-regular;
+	src: url(../fonts/haas/NHaasGroteskTXPro-55Rg.ttf);
+}
+@font-face{
+	font-family: haas-medium;
+	src: url(../fonts/haas/NHaasGroteskTXPro-65Md.ttf);
+}
+@font-face{
+	font-family: haas-bold;
+	src: url(../fonts/haas/NHaasGroteskTXPro-75Bd.ttf);
+}
+
+@font-face{
+	font-family: opensans-light;
+	src: url(../fonts/opensans/OpenSans-Light_0.ttf);
+}
+@font-face{
+	font-family: opensans-regular;
+	src: url(../fonts/opensans/OpenSans-Regular_0.ttf);
+}
+@font-face{
+	font-family: opensans-semi;
+	src: url(../fonts/opensans/OpenSans-Semibold_0.ttf);
+}

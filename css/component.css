@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn{
+	padding: 14px 30px 12px;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-family: haas-bold;
+	border-radius: 50px;
+}
+.btn-sec{
+	color: #1673d3 !important;
+	border: 2px solid #1673d3;
+}
+.btn-sec-wyt{
+	color: #ffffff !important;
+	border: 2px solid #ffffff;
+}
+.btn-primary{
+	background-color: #1673d3;
+}
+.btn-default{
+	background-color: white;
+	color: #1673d3;
+}
+input.form-control{
+	border-radius: 50px;
+	padding: 0 30px;
+	border: none;
+	height: 47px;
+}
+::placeholder {
+    font-size: 14px;
+}
+
+:-ms-input-placeholder {
+    font-size: 14px;
+}
+
+::-ms-input-placeholder {
+    font-size: 14px;
+}
+.form-bm input.form-control{
+	border: solid 1px #d1d1d1;
+}
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: rgba(0,0,0,0);
+}
+.navbar-toggler {
+    padding: 0;
+}
+.custom-control-label::before {
+    top: 7px;
+    background-color: #dee2e6;
+}
+.custom-control-label::after {
+    top: 7px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #1673d3;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #1673d3;
+}
+label:focus{
+	outline: none;
+}
+.form-control:focus {
+	border-color: #1673d3 !important;
+    box-shadow: none;
+}
+
+
