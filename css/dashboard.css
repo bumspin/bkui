@@ -53,12 +53,14 @@ ul.user-optns li.active a{
 	cursor:default;
 }
 .table td {
-    padding-left: 0;
     vertical-align: middle;
     border-top: none;
 	font-size: 14px;
 }
-.table td:first-child{
+.user-profile td {
+    padding-left: 0;
+}
+.user-profile td:first-child{
 	font-family: opensans-semi;
 	color: #393939;
 }
@@ -79,6 +81,12 @@ ul.user-optns li.active a{
 
 .db-f{
 	text-align: right;
+}
+.filter-sect td:first-child{
+	padding-left: 0;
+}
+.filter-sect td:last-child{
+	padding-right: 0;
 }
 .db-filter-wrap{
 	font-size: 11px !important;
@@ -144,6 +152,13 @@ ul.user-optns li.active a{
 .table td, .table th {
     border-top: none;
 	white-space: nowrap;
+}
+.job-stat span{
+	cursor: pointer;
+}
+.job-stat span.active{
+	color: #393939;
+	font-family: opensans-semi;
 }
 
 /* DASHBOARD PROVIDER JOB END */
