@@ -102,7 +102,7 @@
 									</tr>
 								  </thead>
 								  <tbody>
-									<tr>
+									<tr data-toggle="modal" data-target="#exampleModalCenter">
 									  <td class="job-date">Jan 8, 2018</td>
 									  <td class="customer-name">Jogboms PLC</td>
 									  <td class="job-cat">Mechanics</td>
@@ -212,10 +212,53 @@
         </div>
       </div>
     </section>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">Job Request Information - <span class="job-id">#25410</span></h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			  <div class="row">
+			  	<div class="col-xs-12 col-md-6 cust-detail-wrap">
+			  		<div class="modal-cust-detail detail-pad">
+			  			<div>
+							<img src="img/db-user3.png" class="mr-2">
+							<div class="customer-name">
+								<h6 class="mb-1">Bunmi Adekunle</h6>
+								<p class="font-blue mb-0">Customer</p>
+							</div>
+						</div>
+						<p class="job-request-date text-center"><span class="job-date">Jan 8, 2018</span> <span class="job-time">1:38:21pm</span></p>
+					</div>
+				</div>
+			  	<div class="col-xs-12 col-md-6">
+			  		<div class="desc-detail detail-pad">
+						<div class="job-description">
+							<p class="font-blk haas-med mb-1 desc-title">Job Description</p>
+							<p class="desc-txt mb-2">I need my bedroom cleaned before I get back home</p>
+						</div>
+						<div class="job-location">
+							<p class="font-blk haas-med mb-1 desc-title">Location</p>
+							<p class="desc-txt mb-0">No 20, Akin Olugbade Street, Off Banjokoh Ikole Street, Lagos.</p>
+						</div>
+					</div>
+				</div>
+			  </div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn-small btn-secondary btn-success" data-dismiss="modal">Accept</button>
+			<button type="button" class="btn-small btn-danger">Reject</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
 </body>
 <!-- InstanceEndEditable -->
 <script type="text/javascript" src="vendor/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="vendor/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/general.js"></script>
-<!-- InstanceEnd -->
-<script type="text/javascript" src="js/dashboard.js"></script>
-</html>
+<!-- InstanceEnd --></html>
