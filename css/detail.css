@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.card-log{
+	padding: 70px 80px;
+}
+.signup-wrap .card-log{
+	padding: 70px 160px;
+	margin-bottom: 50px;
+}
+.card-wrap{
+	margin-top: 50px;
+}
+.biz-cat .form-group{
+	margin-bottom: 5px;
+}
+@media(max-width: 1100px){
+	.signup-wrap .card-log{
+		padding: 70px 100px;
+	}
+}
+@media(max-width: 800px){
+	.signup-wrap .card-log{
+		padding: 70px 60px;
+	}
+}
+@media(max-width: 650px){
+	.signup-wrap .card-log{
+		padding: 50px 50px;
+	}
+}
+@media(max-width: 600px){
+	.card-log{
+		padding: 50px 60px;
+	}
+}
+@media(max-width: 500px){
+	.card-log{
+		padding: 0 50px;
+	}
+	.signup-wrap .card-log{
+		padding: 0px 30px;
+		margin-bottom: 0;
+	}
+	.detail-wrap{
+		background-color: #ffffff;
+	}
+	.signup-link{
+		border-top: 1px solid #d1d1d1;
+		margin-top: 40px !important;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+@media(max-width: 400px){
+	.card-log{
+		padding: 0;
+	}
+	.signup-wrap .card-log{
+		padding: 0px;
+	}
+}

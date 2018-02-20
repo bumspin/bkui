@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+.dashboard{
+	font-size: 14px;
+}
+.db-user{
+	padding: 40px 30px;
+	margin-bottom: 30px;
+}
+.db-panel{
+	padding-bottom: 90px;
+}
+.db-r{
+	padding: 40px 50px;
+}
+.d-vertical{
+	display: inline-block;
+	vertical-align: middle;
+}
+.user-id{
+	line-height: 20px;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.user-optns li{
+	font-family: haas-medium;
+	transition: background-color 0.2s ease-in-out;
+}
+ul.user-optns li:hover{
+	background-color: #f5f5f5;
+}
+ul.user-optns li a{
+	color: #393939;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 54px;
+	display: block;
+	font-size: 16px;
+	line-height: 54px;
+}
+ul.user-optns li a:hover{
+	text-decoration: none;
+}
+ul.user-optns li.active{
+	background-color: #1673d3;
+}
+ul.user-optns li.active a{
+	color: #ffffff;
+	cursor:default;
+}
+.table td {
+    padding-left: 0;
+    vertical-align: middle;
+    border-top: none;
+	font-size: 14px;
+}
+.table td:first-child{
+	font-family: opensans-semi;
+	color: #393939;
+}
+.profile-pic{
+	font-size: 14px;
+	padding-top: .75rem;
+	text-align: center;
+}
+.avatar-mob{
+	display: none;
+}
+.db-user-r{
+	padding-top: 8px;
+	display: none;
+}
+
+/* DASHBOARD PROVIDER JOB BEGIN */
+
+.db-f{
+	text-align: right;
+}
+.db-filter-wrap{
+	font-size: 11px !important;
+}
+.db-filter-wrap .btns{
+	font-size: 10px !important;
+	width: 76px;
+	height: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: haas-bold;
+	border-radius: 50px;
+	border: none;
+}
+.db-filter-wrap .form-control{
+	font-size: 11px !important;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #e3e5e6;
+	padding: 0 5px;
+	width: 76px;
+}
+.db-filter{
+	width: 76px;
+}
+.db-filter-wrap ::-webkit-input-placeholder {
+	font-size: 11px !important;
+	text-align: center;
+}
+.db-filter-wrap ::-moz-placeholder {
+	font-size: 11px !important;
+	text-align: center;
+}
+.db-filter-wrap :-ms-input-placeholder {
+	font-size: 11px !important;
+	text-align: center;
+}
+.db-filter-wrap :-moz-placeholder {
+	font-size: 11px !important;
+	text-align: center;
+}
+
+/* DASHBOARD PROVIDER JOB END */
+
+@media(max-width: 991px){
+	.user-optns{
+		height: 0;
+		opacity: 0;
+		transition: all 0.5s ease-in-out;
+	}
+	.hide-optn{
+		height: 272px;
+		opacity: 1;
+	}
+	.db-r{
+		padding: 30px;
+		margin-top: 30px;
+	}
+	.db-user {
+		padding: 10px 30px;
+		margin-bottom: 0;
+	}
+	.avatar-desk{
+		display: none;
+	}
+	.avatar-mob{
+		display: block;
+	}
+	.user-id{
+		font-size: 13px;
+		line-height: 18px;
+		margin-left: -5px;
+	}
+	.user-id h5{
+		font-size: 18px;
+	}
+	.db-user-r{
+		display: inline-block;
+	}
+}
+@media(max-width: 767px){
+	.page-title{
+		display: none;
+	}
+	.db-user{
+		margin-top: 30px;
+	}
+	.profile-pic{
+		text-align: left;
+	}
+	ul.user-optns li a {
+		font-size: 16px;
+	}
+}
+@media(max-width: 450px){
+	.db-r{
+		padding: 30px 15px;
+		margin-top: 15px;
+	}
+	.db-user{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 15px;
+	}
+	ul.user-optns li a {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
