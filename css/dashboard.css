@@ -99,8 +99,9 @@ ul.user-optns li.active a{
 	height: 30px;
 	line-height: 30px;
 	border: 1px solid #e3e5e6;
-	padding: 0 5px;
+	padding: 0;
 	width: 76px;
+	text-align: center;
 }
 .db-filter{
 	width: 76px;
@@ -120,6 +121,29 @@ ul.user-optns li.active a{
 .db-filter-wrap :-moz-placeholder {
 	font-size: 11px !important;
 	text-align: center;
+}
+.db-prov-job td {
+    padding-left: .75rem;
+}
+.db-prov-job td:first-child {
+	color: #7e7e7e;
+	font-family: opensans-regular;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(0,0,0,.05);
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: transparent;
+}
+.table thead th {
+    border-bottom: none;
+	font-family: haas-bold;
+    background-color: rgba(0,0,0,.05);
+	color: #393939;
+}
+.table td, .table th {
+    border-top: none;
+	white-space: nowrap;
 }
 
 /* DASHBOARD PROVIDER JOB END */
@@ -172,6 +196,11 @@ ul.user-optns li.active a{
 	}
 	ul.user-optns li a {
 		font-size: 16px;
+	}
+}
+@media(max-width: 630px){
+	.filter-sect tr td{
+		width: 100%;
 	}
 }
 @media(max-width: 450px){

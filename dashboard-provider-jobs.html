@@ -58,63 +58,117 @@
 	      <div class="col-xs-12 col-lg-9">
 			  <div class="db-r white-bg">
 				  <h4 class="font-blk haas-med optn-title mb-4">All Jobs: <span class="font-blue job-num">35</span></h4>
-				  <div class="row">
-				  	<div class="col-xs-12 col-md-6">
-				  		<div class="job-stat">
-							<span class="d-inline-block job-all open-semi font-blk">All (35)</span>
-							<span class="d-inline-block job-all mr-1 ml-1">Completed (25)</span>
-							<span class="d-inline-block job-all">Ongoing (10)</span>
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="db-f">
-							<form class="form-inline d-inline-block db-filter-wrap">
-								<div class="db-filter d-inline-block">
-									<input type="text" class="form-control" id="from-date" placeholder="11-02-18">
+				  <div class="table-responsive">
+					  <table class="table mb-0 filter-sect">
+						  <tr>
+							<td valign="middle">
+								<div class="job-stat">
+									<span class="d-inline-block job-all open-semi font-blk">All (35)</span>
+									<span class="d-inline-block job-all mr-1 ml-1">Completed (25)</span>
+									<span class="d-inline-block job-all">Ongoing (10)</span>
 								</div>
-								<p class="d-inline-block">to</p>
-								<div class="db-filter d-inline-block">
-									<input type="text" class="form-control" id="to-date" placeholder="11-02-18">
+							</td>
+							<td valign="middle">
+								<div class="db-f">
+									<form class="form-inline d-inline-block db-filter-wrap">
+										<div class="db-filter d-inline-block">
+											<input type="text" class="form-control" id="from-date" placeholder="11-02-18">
+										</div>
+										<p class="d-inline-block m-0">to</p>
+										<div class="db-filter d-inline-block">
+											<input type="text" class="form-control" id="to-date" placeholder="11-02-18">
+										</div>
+										<div class="db-filter d-inline-block">
+											<button type="submit" class="btns btn-primary">filter</button>
+										</div>
+									</form>
 								</div>
-								<div class="db-filter d-inline-block">
-									<button type="submit" class="btns btn-primary">filter</button>
-								</div>
-							</form>
-						</div>
-					</div>
+							</td>
+						  </tr>
+					  </table>
 				  </div>
 				  <div class="row">
 					  <div class="col-12">
-					  <table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>
+						  <div class="table-responsive">
+							  <table class="table table-striped db-prov-job mt-3">
+								  <thead>
+									<tr>
+									  <th scope="col">Date</th>
+									  <th scope="col">Customer</th>
+									  <th scope="col">Category</th>
+									  <th scope="col">Amount</th>
+									  <th scope="col">Job ID</th>
+									  <th scope="col">Status</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <td class="job-date">Jan 8, 2018</td>
+									  <td class="customer-name">Jogboms PLC</td>
+									  <td class="job-cat">Mechanics</td>
+									  <td class="job-amount">20,000</td>
+									  <td class="job-id">#25410</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 5, 2018</td>
+									  <td class="customer-name">SYNC Studios</td>
+									  <td class="job-cat">Photography</td>
+									  <td class="job-amount">50,000</td>
+									  <td class="job-id">#30002</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 8, 2018</td>
+									  <td class="customer-name">Jogboms PLC</td>
+									  <td class="job-cat">Mechanics</td>
+									  <td class="job-amount">20,000</td>
+									  <td class="job-id">#25410</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 5, 2018</td>
+									  <td class="customer-name">SYNC Studios</td>
+									  <td class="job-cat">Photography</td>
+									  <td class="job-amount">50,000</td>
+									  <td class="job-id">#30002</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 8, 2018</td>
+									  <td class="customer-name">Jogboms PLC</td>
+									  <td class="job-cat">Mechanics</td>
+									  <td class="job-amount">20,000</td>
+									  <td class="job-id">#25410</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 5, 2018</td>
+									  <td class="customer-name">SYNC Studios</td>
+									  <td class="job-cat">Photography</td>
+									  <td class="job-amount">50,000</td>
+									  <td class="job-id">#30002</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 8, 2018</td>
+									  <td class="customer-name">Jogboms PLC</td>
+									  <td class="job-cat">Mechanics</td>
+									  <td class="job-amount">20,000</td>
+									  <td class="job-id">#25410</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+									<tr>
+									  <td class="job-date">Jan 5, 2018</td>
+									  <td class="customer-name">SYNC Studios</td>
+									  <td class="job-cat">Photography</td>
+									  <td class="job-amount">50,000</td>
+									  <td class="job-id">#30002</td>
+									  <td class="job-status">Ongoing</td>
+									</tr>
+								  </tbody>
+							  </table>
+						  </div>
 					  </div>
 				  </div>
 			  </div>
