@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** SUPPORT BEGIN ***/
+
+.support-item{
+	padding: 40px;
+	background-color: #f5f5f5;
+	transition: all 0.3s ease-in-out;
+}
+.support-item:hover{
+	color: white;
+	background-color: #1673d3;
+}
+.support-item:hover p{
+	opacity: 0.8;
+}
+.support-item:hover .sub-title{
+	color: white !important;
+}
+.support-item:hover .btn-sec{
+	color: white !important;
+	border: 2px solid #fff;
+	transition: all 0.3s ease-in-out;
+}
+.support-item:hover .btn-sec:hover{
+	color: #1673d3 !important;
+	border: 2px solid #fff;
+	background-color: #fff;
+}
+
+/*** SUPPORT END ***/
+
+.faq-item{
+	display: block;
+	height: 100px;
+	line-height: 100px;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	transition: all 0.3s ease-in;
+	margin-bottom: 30px;
+	color: #7e7e7e;
+}
+.faq-item:hover{
+	border: 1px solid #1673d3;
+	background-color: #1673d3;
+	color: white;
+	text-decoration: none;
+}
+
+.faq .card {
+    border: none;
+    border-radius: 0;
+}
+.faq .btn-link {
+    color: #393939;
+	cursor: pointer;
+}
+.faq .btn-link:hover {
+	color: #7e7e7e;
+	text-decoration: none;
+}
+.faq .card-header {
+    padding: 20px 1.25rem;
+}
+
+
+
+
+
+
+
