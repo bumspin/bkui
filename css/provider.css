@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+#provider-detail-wrap{
+	background: url(../img/provider-bg.jpg) no-repeat center center;
+	height: 400px;
+}
+.provider-page{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 14px;
+}
+.provider-hero-txt{
+	font-size: 80px;
+}
+.row-cntrl{
+	height: 80px;
+}
+#page-controls{
+	height: 80px;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	position: relative;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.provider-detail-avatar{
+	position: absolute;
+	top: -70px;
+	border: 4px solid white;
+	background-color: white;
+	display: inline-block;
+}
+.provider-identity{
+	display: inline-block;
+	padding-left: 130px;
+}
+.provider-identity p{
+	line-height: 14px;
+}
+.provider-identity .provider-name{
+	font-size: 18px;
+}
+#page-controls a.nav-link {
+    color: #7e7e7e !important;
+}
+#page-controls ul {
+	justify-content: flex-end;
+	-webkit-box-pack: end;
+}
+#page-controls ul li:last-child{
+	margin-left: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+	opacity: 1;
+	font-family: haas-medium;
+}
+.card-body{
+	padding: 30px;
+}
+.card-bm{
+	margin-bottom: 30px;
+}
+.provider-page .carousel-controls{
+	background-color: white;
+	padding: 3px;
+	top: auto;
+	bottom: 0;
+}
+.reviewer-name{
+	font-size: 16px;
+}
+
+

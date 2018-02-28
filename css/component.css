@@ -50,6 +50,9 @@ input.form-control{
 	border: none;
 	height: 49px;
 }
+textarea.form-control{
+	padding: 15px 30px;	
+}
 ::placeholder {
     font-size: 14px;
 }
@@ -62,6 +65,9 @@ input.form-control{
     font-size: 14px;
 }
 .form-bm input.form-control{
+	border: solid 1px #d1d1d1;
+}
+input.form-control{
 	border: solid 1px #d1d1d1;
 }
 .navbar-light .navbar-toggler {

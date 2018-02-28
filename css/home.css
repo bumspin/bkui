@@ -33,23 +33,6 @@
 .steps-carousel{
 	position: relative;
 }
-.carousel-controls{
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-.cntrl-disabled{
-	opacity: 0.6;
-	pointer-events: none;
-}
-.cntrl{
-	padding: 10px 20px;
-	color: white;
-	background-color: #1673d3;
-	font-size: 20px;
-    border: none;
-	cursor: pointer;
-}
 .abt-title{
 	font-size: 60px;
 	line-height: 55px;

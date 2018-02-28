@@ -26,6 +26,10 @@
 	font-family: opensans-semi;
 	src: url(../fonts/opensans/OpenSans-Semibold_0.ttf);
 }
+@font-face{
+	font-family: bebas-bold;
+	src: url(../fonts/BebasNeue-Bold.otf);
+}
 .haas-reg{
 	font-family: haas-regular;
 }
@@ -43,4 +47,7 @@
 }
 .open-semi{
 	font-family: opensans-semi;
+}
+.bebas-bold{
+	font-family: bebas-bold;
 }

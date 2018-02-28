@@ -24,6 +24,9 @@ body{
 	font-size: 24px;
 	line-height: 38px;
 }
+.lh-0{
+	line-height: 0;
+}
 .op-6{
 	opacity: 0.6;
 }
@@ -36,6 +39,23 @@ body{
 .white-bg{
 	background-color: #ffffff;
 	border: 1px solid #e3e5e6;
+}
+.carousel-controls{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.cntrl-disabled{
+	opacity: 0.6;
+	pointer-events: none;
+}
+.cntrl{
+	padding: 10px 20px;
+	color: white;
+	background-color: #1673d3;
+	font-size: 20px;
+    border: none;
+	cursor: pointer;
 }
 .main-title{
 	font-size: 36px;
