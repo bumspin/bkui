@@ -276,6 +276,9 @@ p.bold{
 
 /*** END INNER PAGES ***/
 
+.card-bm{
+	margin-bottom: 30px;
+}
 
 @media(max-width: 1466px){
 	.container-fluid, #nav{
@@ -349,6 +352,9 @@ p.bold{
 	.container-fluid, #nav{
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+	.card-bm{
+		margin-bottom: 15px;
 	}
 }
 

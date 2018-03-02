@@ -6,7 +6,7 @@
 }
 .db-user{
 	padding: 40px 30px;
-	margin-bottom: 30px;
+/*	margin-bottom: 30px;*/
 }
 .db-panel{
 	padding-bottom: 90px;
@@ -18,6 +18,70 @@
 	display: inline-block;
 	vertical-align: middle;
 }
+.job-num, .rating-num{
+	font-family: haas-bold;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.job-stat{
+	padding: 70px 40px;
+	color: white;
+	display: block;
+}
+.job-stat:hover{
+	color: white;
+	text-decoration: none;
+}
+.db-ongoing-job{
+	background-color: #85add2;
+	transition: background-color 0.3s ease-in-out;
+}
+.db-ongoing-job:hover{
+	background-color: #6f9cc7;
+}
+.db-completed-job{
+	background-color: #84d1a2;
+	transition: background-color 0.3s ease-in-out;
+}
+.db-completed-job:hover{
+	background-color: #72c693;
+}
+.db-declined-job{
+	background-color: #d68aa0;
+	transition: background-color 0.3s ease-in-out;
+}
+.db-declined-job:hover{
+	background-color: #d9708e;
+}
+.db-home .card{
+	border-radius: 0;
+}
+.db-home .card-header{
+	padding-left: 30px;
+	font-size: 24px;
+	color: #fff;
+	background-color: #85add2;
+	border-radius: 0;
+	font-family: haas-regular;
+}
+.db-home .card-body{
+	padding: 30px;
+}
+.db-home .cntrl{
+	background-color: transparent;
+	border: 1px solid #fff;
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+	padding: 0;
+	border-radius: 100px;
+}
+.db-home .carousel-controls{
+	margin: 9px 30px 0 0;
+}
+.star-3{
+	color: #1f78c3 !important;
+}
 .user-id{
 	line-height: 20px;
 }
@@ -25,6 +89,9 @@ ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+ul.user-optns{
+	border-top: none;
 }
 ul.user-optns li{
 	font-family: haas-medium;
